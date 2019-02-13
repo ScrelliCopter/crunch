@@ -1,8 +1,4 @@
-set(CMAKE_CXX_FLAGS_RELEASE
-	-march=core2
-	-fomit-frame-pointer
-	-fexpensive-optimisations
-	-O3)
+set(CMAKE_CXX_FLAGS_RELEASE "-march=core2 -fomit-frame-pointer -fexpensive-optimizations -O3")
 add_definitions(
 	-Wall -Wextra
 	-fexceptions

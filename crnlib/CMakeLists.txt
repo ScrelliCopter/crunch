@@ -1,8 +1,4 @@
-set(CMAKE_CXX_FLAGS_RELEASE
-	-march=core2
-	-fomit-frame-pointer
-	-fexpensive-optimisations
-	-O3)
+set(CMAKE_CXX_FLAGS_RELEASE "-march=core2 -fomit-frame-pointer -fexpensive-optimizations -O3")
 add_definitions(
 	-Wall -Wextra
 	-Wno-unused-value -Wno-unused
@@ -153,7 +149,6 @@ add_library(crnlib
 	crn_winhdr.h
 	crn_zeng.cpp
 	crn_zeng.h
-	crnlib.cbp
 	crnlib.cpp
 	lzma_7zBuf.cpp
 	lzma_7zBuf.h
