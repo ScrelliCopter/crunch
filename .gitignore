@@ -1,2 +1,6 @@
 *.o
 crnlib/crunch
+
+.idea/
+build/
+cmake-build*/
